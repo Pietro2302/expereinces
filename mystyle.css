@@ -10,19 +10,50 @@ body{
     position:relative;
     width: fit-content;
 }
+#landing img{
+    display:block;
+    position:relative;
+}
 #title{
     position: relative;
-    top: 100px;
-    transform: rotate(-10deg);
+    top:-40px;
+    transform: rotate(-7deg);
     font-size: 100px;
     text-align: center;
     
 }
 
 #places_home{
-
-    font-size: 50px;
-    top: 250px;
-    left: 150px;
+    top: 100px;
+    left: 250px;
     transform: rotate(-20deg);
+    font-size: 50px;
+}
+
+#music_home{
+    top: 420px;
+    left: 300px;
+    transform: rotate(10deg);
+    font-size: 20px;
+    
+}
+
+#books_home{
+    left:1100px;
+    transform: rotate(10deg);
+    font-size: 50px;
+}
+
+#movies_home{
+    left: 1100px;
+    top: 300px;
+    transform: rotate(15deg);
+    font-size: 50px;
+}
+
+#giradisc{
+    width: 600px;
+    bottom: 200px;
+    right:100px;
+    transform: rotate(10deg); 
 }
